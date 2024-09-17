@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { ModeToggle } from "@/components/mode-toggle";
 
-const socket = io("http://localhost:3001", {
+const socket = io("https://chat-app-socket-io-z8oa.onrender.com", {
   withCredentials: true,
   transports: ['websocket', 'polling'],
 });
